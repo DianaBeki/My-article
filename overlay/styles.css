@@ -1,0 +1,25 @@
+#grid {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.pink {
+  background-color: pink;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.orange {
+  background-color: orange;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  z-index: 9;
+}
